@@ -2,7 +2,7 @@ from Crypto.Cipher import AES
 
 key = b'you saw nothing!'
 iv = b'CMPT 479 test iv'
-msg = bytearray(b'Eat my fat ass')
+msg = bytearray(b'Alice and Bob in Wonderland!')
 roundup = int((len(msg)+1)/16) * 16 + 16
 
 diff = roundup - len(msg)
